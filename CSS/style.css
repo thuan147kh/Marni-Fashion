@@ -1,3 +1,4 @@
+<<<<<<< HEAD:public/style.css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap");
 * {
   padding: 0;
@@ -33,8 +34,74 @@
 #menu .item a {
   color: #626a67;
   text-decoration: none;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
+#header {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: .2s ease;
+}
+.menu {
+    list-style:none;
+    display: flex;
+}
+
+.menu .item {
+    margin:0px 25px;
+}
+
+.menu .item a {
+    position: relative;
+    color:#626A67;
+    text-decoration: none;
+>>>>>>> 9dee4da51dcfbffed3a9ac9068d00577d16fa6f0:CSS/style.css
+}
+.menu .item a::after {
+    background: #1d1a1a;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s ;
+}
+.menu .item a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+<<<<<<< HEAD:public/style.css
 #actions {
   display: flex;
 }
@@ -51,6 +118,29 @@
   display: flex;
   padding: 0px 133px;
   position: relative;
+=======
+.actions {
+    display: flex;
+}
+
+.actions .item {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+#banner {
+    width: 100%;
+    background-image :url("../img/bannerr.jpg");
+    height: 280px;
+    margin-top:130px;
+    display: flex;
+    padding:0px 133px;
+    position:relative;
+>>>>>>> 9dee4da51dcfbffed3a9ac9068d00577d16fa6f0:CSS/style.css
 }
 
 #banner .box-left,
@@ -104,11 +194,21 @@
 #banner .box-right img:nth-child(1) {
   animation-delay: 0.5s;
 }
+<<<<<<< HEAD:public/style.css
 #banner .box-right img:nth-child(2) {
   animation-delay: 1s;
-}
+=======
+#banner .box-right img:nth-child(2)
+{
 
+    animation-delay: 1s;
+>>>>>>> 9dee4da51dcfbffed3a9ac9068d00577d16fa6f0:CSS/style.css
+}
+.buynow{
+    cursor: pointer;
+}
 @keyframes animation {
+<<<<<<< HEAD:public/style.css
   0% {
     transform: translateY(0px);
   }
@@ -118,6 +218,18 @@
   100% {
     transform: translateY(0px);
   }
+=======
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+>>>>>>> 9dee4da51dcfbffed3a9ac9068d00577d16fa6f0:CSS/style.css
 }
 
 .to-bottom {
@@ -308,10 +420,17 @@
 }
 
 #list-comment .item .text {
+<<<<<<< HEAD:public/style.css
   padding: 20px 50px;
   color: #fff;
 }
+=======
+    padding:20px 50px;
+    color:#fff;
+>>>>>>> 9dee4da51dcfbffed3a9ac9068d00577d16fa6f0:CSS/style.css
 
+}
+/*================FOOTER================*/
 #footer {
   width: 100%;
   background: rgb(0, 0, 0, 0.79);
