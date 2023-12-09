@@ -7,8 +7,6 @@
     <title>Fashion</title>
     <link rel="icon" href="../img/clothes64.png" />
     <link rel="stylesheet" href="../CSS/product.css" />
-    <script src="../javascript/script.js"></script>
-    <script src="../javascript/react.js"></script>
   </head>
 
   <body>
@@ -19,10 +17,10 @@
         </a>
         <div class="menu">
           <div class="item">
-            <a href="">Home</a>
+            <a href="../HTML/index.html">Home</a>
           </div>
           <div class="item">
-            <a href="">Products</a>
+            <a href="../HTML/product.html">Products</a>
           </div>
           <div class="item">
             <a href="">Blog</a>
@@ -35,7 +33,7 @@
             <div class="item">
               <ul>
                 <a href="cart.html">
-                <img src="../img/cart.jpg" alt="" />
+                <img class="cart" src="../img/cart.jpg" alt="" />
                 </a>
               </ul>
             </div>
@@ -51,6 +49,33 @@
             </div> -->
           </div>
         </div>
+  <!-- =========================Product====================== -->  
+        <div class="flex-box">
+          <div class="left">
+            <div class="big-img">
+              <img src="../img/2.jpg" alt="">
+            </div>
+            <div class="images">
+              <div class="small-img">
+                <img src="../img/1.jpg" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                <img src="../img/1.jpg" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                <img src="../img/1.jpg" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                <img src="../img/1.jpg" onclick="showImg(this.src)">
+              </div>
+            
+            </div>
+          </div>
+        </div>
+
+
+
+  <!-- =========================FOOTER====================== -->
         <div id="footer">
           <div class="box">
             <div class="logo">
@@ -84,6 +109,6 @@
           </div>
         </div>
       </div>
-      <script src="script.js"></script>
+      <script src="../javascript/cart.js"></script>
     </body>
   </html>

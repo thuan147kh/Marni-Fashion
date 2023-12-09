@@ -14,7 +14,6 @@
 }
 
 #header {
-    position: fixed;
     top: -10px;
     left: 0;
     width: 100%;
@@ -173,6 +172,7 @@
     padding-bottom: 78px;
     padding-left:134px;
     padding-right:134px;
+    cursor: pointer;
 }
 
 #wp-products h2 {
@@ -364,10 +364,10 @@
 #footer {
     width: 100%;
     background:rgb(0,0,0,0.79);
-    height: 322px;
-    margin-top:338px;
-    padding:0px 63px;
-    padding-top:57px;
+    height: 215px;
+    margin-top:120px;
+    padding:0px 15px;
+    padding-top:10px;
     display: flex;
     justify-content: space-around;
 }
